@@ -2,229 +2,249 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WTF COURSE</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WTF HTML</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
 <body>
+  <a id="top"></a>
+
+
+  <header class="header__navigation">
+
+
+    <nav class="header__navigation-nav">
+      <a class="header__navigation-link" href="index.html"><img class="header__navigation-img" src="img/house.png"
+          alt="home" /></a>
+      <a class="header__navigation-link" href="html.html"><img class="header__navigation-img" src="img/htmln.png"
+          alt="html" /></a>
+      <a class="header__navigation-link" href="css.html"><img class="header__navigation-img" src="img/cssn.png"
+          alt="css" /></a>
+      <a class="header__navigation-link" href="js.html"><img class="header__navigation-img" src="img/jsn.png"
+          alt="JavaScript" /></a>
+      <a class="header__navigation-link" href="wtf.html"><img class="header__navigation-img" src="img/wtfn.png"
+          alt="wtf_logo" /></a>
+      <a class="header__navigation-link" href="note.html"><img class="header__navigation-img" src="img/noten.png"
+          alt="note" /></a>
+    </nav>
+
+  </header>
+
+  <main>
     <header>
-        <a id="top"></a>
-        <nav>
-            <a href="index.html"><img style="width:60px; height:60px;" src="img/house.png" /></a>
-            <a href="html.html"><img style="width:60px; height:60px;" src="img/htmln.png"></a>
-            <a href="css.html"><img style="width:60px; height:60px;" src="img/cssn.png"></a>
-            <a href="js.html"><img style="width:60px; height:60px;" src="img/jsn.png"></a>
-            <a href="wtf.html"><img style="width:60px; height:60px;" src="img/wtfn.png"></a>
-            <a href="note.html"><img style="width:60px; height:60px;" src="img/noten.png"></a>
-
-        </nav>
-
+      <a class="header__link" href="#bottom">bottom</a>
+      <h1 class="main__header">WTF COURSE</h1>
     </header>
-    <main>
-        <header>
-            <div class="navi">
-                <a href="#bottom">bottom</a>
-            </div>
-            <h1>WTF COURSE</h1>
-        </header>
-        <section class="corsan">
+    <section class="corsan">
+      <p class="corsan-p">Maciek Korsan</p>
+      <div class="corsan_box">
+        <img clss="corsan__wtf-img" src="img/korsan-header.jpg" alt="Maciek Korsan" />
+        <a class="corsan__link" href="https://cotenfrontend.pl/" target="_blank">GO TO WHAT THE FRONTEND !!!</a>
+      </div>
+    </section>
+    <section class="corsan__description">
+      <h2 class=main__note-header>Week 1</h2>
+      <section class="main__note">
 
-            <p class="corsan">Maciek Korsan</p> 
-            <img src="img/korsan-header.jpg" alt="Maciek Korsan" />
+        Plan:
+        <ul>
+          <li>Czym jest frontend?</li>
+          <li>Różnice w pracy na systemach Windows / Linux / MacOS</li>
+          <li>
+            Przedstawienie narzędzi wykorzystywanych w trakcie szkolenia
+          </li>
+          <li>Ścieżka rozwoju</li>
+          <li>Mój pierwszy projekt!</li>
+        </ul>
+      </section>
+      <h2 class=main__note-header>Week 2</h2>
+      <section class="main__note">
 
-        </section>
-        <section>
-            <div class=paragraph>
-                <h2 class="week">Week 1</h2>
-                Plan:
-                <ul>
-                    <li>Czym jest frontend?</li>
-                    <li>Różnice w pracy na systemach Windows / Linux / MacOS</li>
-                    <li>Przedstawienie narzędzi wykorzystywanych w trakcie szkolenia</li>
-                    <li>Ścieżka rozwoju</li>
-                    <li>Mój pierwszy projekt!</li>
-                </ul>
+        Plan:
+
+        <ul>
+          <li>Warstwy strony internetowej</li>
+          <li>WTF: HTML</li>
+          <li>WTF: CSS</li>
+          <li>Magia programowania</li>
+          <li>Devtools: podglądamy (i zmieniamy) istniejące strony</li>
+        </ul>
+      </section>
+      <h2 class=main__note-header>Week 3</h2>
+      <section class="main__note">
+
+        Plan:
+
+        <ul>
+          <li>Jak wygląda planowanie pracy za pomocą metody Kanban?</li>
+          <li>Atrybuty w HTML</li>
+          <li>Klasy CSS</li>
+          <li>Jak działa internet i przeglądarka?</li>
+          <li>WTF: JavaScript</li>
+          <li>Terminal, czyli ocb z tym czarnym okienkiem</li>
+        </ul>
+      </section>
+      <h2 class=main__note-header>Week 4</h2>
+      <section class="main__note">
+
+        Plan:
+
+        <ul>
+          <li>Q&A</li>
+          <li>Dzień z życia frontendowca</li>
+          <li>GIT: pierwsze starcie</li>
+          <li>Code: konfiguracja edytora</li>
+          <li>CSS: box model, pozycje, floaty</li>
+          <li>Block - element - modifier</li>
+          <li>JavaScript: typy i struktury danych, immutability</li>
+          <li>DOM-owe przedszkole</li>
+        </ul>
+      </section>
+      <h2 class=main__note-header>Week 5</h2>
+      <section class="main__note">
+
+        Plan:
+
+        <ul>
+          <li>Co robić, jak nie działa?</li>
+          <li>Figma: grafik cięcie — też zajęcie</li>
+          <li>HTML: listy, tabele, definicje</li>
+          <li>CSS: flexbox, tła</li>
+          <li>Normalizacja vs reset</li>
+          <li>JavaScript: funkcje</li>
+        </ul>
+      </section>
+      <h2 class=main__note-header>Week 6</h2>
+      <section class="main__note">
+
+        Plan:
+
+        <ul>
+          <li>HTML: formularze</li>
+          <li>Czym się różni GET od POST?</li>
+          <li>CSS: grid, media queries</li>
+          <li>JavaScript: eventy i event loop</li>
+          <li>🍔 menu</li>
+          <li>GitHub pages: statyczny hosting</li>
+        </ul>
+      </section>
+      <h2 class=main__note-header>Week 7</h2>
+      <section class="main__note">
+
+        Plan:
+
+        <ul>
+          <li>Flexbox vs Grid</li>
+          <li>
+            NODEJS & NPM: podstawowe narzędzia współczesnego frontendowca
+          </li>
+          <li>Skrypty NPM</li>
+          <li>SASS: korzystamy z preprocesora CSS</li>
+          <li>JavaScript: obiekty / prototypy / klasy</li>
+        </ul>
+      </section>
+      <h2 class=main__note-header>Week 8</h2>
+      <section class="main__note">
+
+        Plan:
+
+        <ul>
+          <li>JavaScript: import / export</li>
+          <li>Webpack: wstęp do narzędzia</li>
+          <li>Webpack: moduły i pluginy</li>
+          <li>WTF Webpack StarterKit</li>
+          <li>CSS: zmienne</li>
+          <li>HTML: Hipersection
+            oza i inne choroby Twojego kodu</li>
+        </ul>
+      </section>
+      <h2 class=main__note-header>Week 9</h2>
+      <section class="main__note">
+
+        Plan:
+
+        <ul>
+          <li>Code review</li>
+          <li>CSS: prefixy, customowe fonty</li>
+          <li>Markdown</li>
+          <li>Czy frontendowiec musi być grafikiem?</li>
+          <li>Prototypowanie w Figmie.</li>
+          <li>Git: branche</li>
+          <li>JavaScript: cookies, local i session storage</li>
+        </ul>
+      </section>
+      <h2 class=main__note-header>Week 10</h2>
+      <section class="main__note">
+
+        Plan:
+
+        <ul>
+          <li>Z kim pracuje frontendowiec?</li>
+          <li>CSS: animacje i przejścia</li>
+          <li>SVG: praca z grafiką wektorową</li>
+          <li>OpenGraph</li>
+          <li>Progressive Web Apps</li>
+          <li>WCAG</li>
+        </ul>
+      </section>
+      <h2 class=main__note-header>Week 11</h2>
+      <section class="main__note">
+
+        Plan:
+
+        <ul>
+          <li>JavaScript: praca z API / JSON</li>
+          <li>Postman: podglądamy i tworzymy zapytania do serwera</li>
+          <li>
+            U mnie działa: testujemy nasze strony na różnych przeglądarkach
+          </li>
+          <li>
+            Optymalizacja: lighthouse, minifikacja zasobów, krytyczny CSS
+          </li>
+          <li>GIT: mój pierwszy pull request</li>
+        </ul>
+      </section>
+      <h2 class=main__note-header>Week 12</h2>
+      <section class="main__note">
+
+        Plan:
+
+        <ul>
+          <li>HTML: multimedia i zewnętrzne zasoby</li>
+          <li>Licencje, grafiki, materiały</li>
+          <li>CSS: ~ + › []</li>
+          <li>Projekt od A do ...</li>
+        </ul>
+      </section>
+      <h2 class=main__note-header>Week 13</h2>
+      <section class="main__note">
+
+        Plan:
+
+        <ul>
+          <li>Podsumowanie szkolenia</li>
+          <li>Pierwsza praca</li>
+          <li>Jak wygląda rozmowa kwalifikacyjna?</li>
+          <li>Jak przygotować swoje CV?</li>
+          <li>Przyszłość frontendu</li>
+          <li>WTF: i co dalej?</li>
+        </ul>
+      </section>
+    </section>
+  </main>
+  <a class="footer__link" href="#top">to top</a>
+  <footer id="bottom">
 
 
-            </div>
-            <div class=paragraph>
-                <h2 class="week">Week 2</h2>
-                Plan:
 
-                <ul>
-                    <li>Warstwy strony internetowej</li>
-                    <li>WTF: HTML</li>
-                    <li>WTF: CSS</li>
-                    <li>Magia programowania</li>
-                    <li>Devtools: podglądamy (i zmieniamy) istniejące strony</li>
-                </ul>
+  </footer>
 
 
-            </div>
-            <div class=paragraph>
-                <h2 class="week">Week 3</h2>
-                Plan:
+  <script src="main.js">
 
-                <ul>
-                    <li>Jak wygląda planowanie pracy za pomocą metody Kanban?</li>
-                    <li>Atrybuty w HTML</li>
-                    <li>Klasy CSS</li>
-                    <li>Jak działa internet i przeglądarka?</li>
-                    <li>WTF: JavaScript</li>
-                    <li>Terminal, czyli ocb z tym czarnym okienkiem</li>
-                </ul>
-
-            </div>
-            <div class=paragraph>
-                <h2 class="week">Week 4</h2>
-                Plan:
-
-                <ul>
-                    <li>Q&A</li>
-                    <li>Dzień z życia frontendowca</li>
-                    <li>GIT: pierwsze starcie</li>
-                    <li>Code: konfiguracja edytora</li>
-                    <li>CSS: box model, pozycje, floaty</li>
-                    <li>Block - element - modifier</li>
-                    <li>JavaScript: typy i struktury danych, immutability</li>
-                    <li>DOM-owe przedszkole</li>
-                </ul>
-            </div>
-            <div class=paragraph>
-                <h2 class="week">Week 5</h2>
-                Plan:
-
-                <ul>
-                    <li>Co robić, jak nie działa?</li>
-                    <li>Figma: grafik cięcie — też zajęcie</li>
-                    <li>HTML: listy, tabele, definicje</li>
-                    <li>CSS: flexbox, tła</li>
-                    <li>Normalizacja vs reset</li>
-                    <li>JavaScript: funkcje</li>
-                </ul>
-
-            </div>
-            <div class=paragraph>
-                <h2 class="week">Week 6</h2>
-                Plan:
-
-                <ul>
-                    <li>HTML: formularze</li>
-                    <li>Czym się różni GET od POST?</li>
-                    <li>CSS: grid, media queries</li>
-                    <li>JavaScript: eventy i event loop</li>
-                    <li>🍔 menu</li>
-                    <li>GitHub pages: statyczny hosting</li>
-                </ul>
-
-            </div>
-            <div class=paragraph>
-                <h2 class="week">Week 7</h2>
-                Plan:
-
-                <ul>
-                    <li>Flexbox vs Grid</li>
-                    <li>NODEJS & NPM: podstawowe narzędzia współczesnego frontendowca</li>
-                    <li>Skrypty NPM</li>
-                    <li>SASS: korzystamy z preprocesora CSS</li>
-                    <li>JavaScript: obiekty / prototypy / klasy</li>
-                </ul>
-
-            </div>
-            <div class=paragraph>
-                <h2 class="week">Week 8</h2>
-                Plan:
-
-                <ul>
-                    <li>JavaScript: import / export</li>
-                    <li>Webpack: wstęp do narzędzia</li>
-                    <li>Webpack: moduły i pluginy</li>
-                    <li>WTF Webpack StarterKit</li>
-                    <li>CSS: zmienne</li>
-                    <li>HTML: Hiperdivoza i inne choroby Twojego kodu</li>
-                </ul>
-
-            </div>
-            <div class=paragraph>
-                <h2 class="week">Week 9</h2>
-                Plan:
-
-                <ul>
-                    <li>Code review</li>
-                    <li>CSS: prefixy, customowe fonty</li>
-                    <li>Markdown</li>
-                    <li>Czy frontendowiec musi być grafikiem? </li>
-                    <li>Prototypowanie w Figmie.</li>
-                    <li>Git: branche</li>
-                    <li>JavaScript: cookies, local i session storage</li>
-                </ul>
-
-            </div>
-            <div class=paragraph>
-                <h2 class="week">Week 10</h2>
-                Plan:
-
-                <ul>
-                    <li>Z kim pracuje frontendowiec?</li>
-                    <li>CSS: animacje i przejścia</li>
-                    <li>SVG: praca z grafiką wektorową</li>
-                    <li>OpenGraph</li>
-                    <li>Progressive Web Apps</li>
-                    <li>WCAG</li>
-                </ul>
-
-            </div>
-            <div class=paragraph>
-                <h2 class="week">Week 11</h2>
-                Plan:
-
-                <ul>
-                    <li>JavaScript: praca z API / JSON</li>
-                    <li>Postman: podglądamy i tworzymy zapytania do serwera</li>
-                    <li>U mnie działa: testujemy nasze strony na różnych przeglądarkach</li>
-                    <li>Optymalizacja: lighthouse, minifikacja zasobów, krytyczny CSS</li>
-                    <li>GIT: mój pierwszy pull request</li>
-                </ul>
-
-            </div>
-            <div class=paragraph>
-                <h2 class="week">Week 12</h2>
-                Plan:
-
-                <ul>
-                    <li>HTML: multimedia i zewnętrzne zasoby</li>
-                    <li>Licencje, grafiki, materiały</li>
-                    <li>CSS: ~ + › []</li>
-                    <li>Projekt od A do ...</li>
-                </ul>
-
-            </div>
-            <div class=paragraph>
-                <h2 class="week">Week 13</h2>
-                Plan:
-
-                <ul>
-                    <li>Podsumowanie szkolenia</li>
-                    <li>Pierwsza praca</li>
-                    <li>Jak wygląda rozmowa kwalifikacyjna?</li>
-                    <li>Jak przygotować swoje CV?</li>
-                    <li>Przyszłość frontendu</li>
-                    <li>WTF: i co dalej?</li>
-                </ul>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="navi">
-            <a class="jump" href="#top">to top</a>
-        </div>
-        <a id="bottom"></a>
-    </footer>
-    <script src="main.js">
-
-    </script>
+  </script>
 </body>
 
 </html>

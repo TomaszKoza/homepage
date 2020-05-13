@@ -2,30 +2,60 @@
   font-family: SpecialElite-Regular;
   src: url(SpecialElite-Regular.ttf);
 }
-* {
-  color: white;
-  font-family: SpecialElite-Regular;
+@font-face {
+  font-family: lazer84;
+  src: url(Lazer84.ttf);
 }
-body {
-  background-image: url("img/back1.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+
+/*
+1.Anchors
+2.Main
+3.Navigation
+4.General
+5.WTF_site
+*/
+
+/*          ANCHORS          */
+.header__link,
+.footer__link {
+  display: inline-block;
+  position: relative;
+  left: 90%;
+  font-size: 2em;
+  text-align: right;
+  white-space: nowrap;
+  color: orangered;
+  text-shadow: 0px 0px 2em goldenrod;
+  font-weight: 900;
 }
+
+.header__link:hover,
+.footer__link:hover {
+  color: black;
+  text-shadow: 0px 0px 2em white;
+  background-color: white;
+  z-index: 10;
+}
+
+/*          MAIN          */
+
 main {
   position: relative;
   margin-top: 32px;
 }
-h1 {
+.main__header {
+  display: block;
+
   text-align: center;
   font-weight: bolder;
   font-size: 7em;
 }
-h2 {
+.main__note-header {
   margin-top: 10px;
   margin-bottom: 20px;
   text-align: center;
 }
-.paragraph {
+.main__note {
   background-color: gray;
   margin: 40px 160px;
   padding: 10px;
@@ -37,43 +67,80 @@ h2 {
   line-height: 1.2em;
 }
 
-p {
-  margin: 0px;
-  text-indent: 50px;
-}
+/*          NAVIGATION          */
 
-a {
-  color: orangered;
-  text-shadow: 0px 0px 2em goldenrod;
-  font-weight: 900;
-}
-
-.navi a:hover {
-  color: black;
-  text-shadow: 0px 0px 2em white;
-  background-color: white;
-}
-nav {
+.header__navigation {
   z-index: 5;
   position: fixed;
   top: 0px;
-  left: 491px;
+  left: 530px;
   text-align: center;
   width: 385px;
   height: 64px;
   background-color: rgba(236, 192, 99, 0.342);
 }
-.navi {
-  margin: 0px 25% 0px 75%;
-  font-size: 2em;
-  text-align: center;
-  white-space: nowrap;
+.header__navigation-img {
+  width: 60px;
+  height: 60px;
 }
-img {
+
+/*          GENERAL         */
+p {
+  margin: 0px;
+  text-indent: 50px;
+}
+
+* {
+  color: white;
+  font-family: SpecialElite-Regular;
+}
+body {
+  background-image: url("img/back1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0px;
+}
+
+/*          WTF_SITE          */
+
+.corsan__wtf-img {
+  display: inline-block;
   height: 250px;
   width: 250px;
 }
 .corsan {
   text-align: center;
   text-indent: unset;
+}
+.corsan-p {
+  display: block;
+  margin: 50px auto;
+  text-align: center;
+  text-indent: unset;
+  letter-spacing: 0.3em;
+  font-family: lazer84;
+  font-size: 3.5em;
+  font-weight: bold;
+
+  color: #faeb2c;
+}
+.corsan__link {
+  display: inline-block;
+  position: relative;
+  width: 50vw;
+  text-decoration: underline orangered;
+  font-family: lazer84;
+  font-size: 7em;
+  color: #ec1399;
+}
+
+.corsan__link:hover {
+  text-decoration: underline #ec1399;
+  font-family: lazer84;
+  font-size: 7em;
+  color: orangered;
+}
+
+.corsan__description {
+  margin-top: 100px;
 }
