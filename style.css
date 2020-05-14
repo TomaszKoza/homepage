@@ -1,10 +1,10 @@
 @font-face {
   font-family: SpecialElite-Regular;
-  src: url(SpecialElite-Regular.ttf);
+  src: url(/fonts/Special_Elite/SpecialElite-Regular.ttf);
 }
 @font-face {
   font-family: lazer84;
-  src: url(Lazer84.ttf);
+  src: url(/fonts/lazer84/Lazer84.ttf);
 }
 
 /*
@@ -13,9 +13,10 @@
 3.Navigation
 4.General
 5.WTF_site
+6.Homepage
 */
 
-/*          ANCHORS          */
+/*         1. ANCHORS          */
 .header__link,
 .footer__link {
   display: inline-block;
@@ -37,37 +38,40 @@
   z-index: 10;
 }
 
-/*          MAIN          */
+/*         2. MAIN          */
 
 main {
   position: relative;
-  margin-top: 32px;
+  margin: 0;
+  padding: 0 2.5vw;
+  
 }
+
 .main__header {
   display: block;
-
   text-align: center;
   font-weight: bolder;
   font-size: 7em;
 }
+
 .main__note-header {
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-top: 64px;
   text-align: center;
 }
+
 .main__note {
   background-color: gray;
-  margin: 40px 160px;
-  padding: 10px;
+  margin: 40px auto;
+  padding: 20px 35px;
   border-radius: 30px 30px 30px 0px;
-  box-shadow: inset 0px 0px 5px 3px orangered;
+  box-shadow: inset 0px 0px 7px 5px orangered;
   opacity: 0.8;
   letter-spacing: 0.1em;
   word-spacing: 0.8em;
   line-height: 1.2em;
 }
 
-/*          NAVIGATION          */
+/*        3. NAVIGATION          */
 
 .header__navigation {
   z-index: 5;
@@ -84,11 +88,7 @@ main {
   height: 60px;
 }
 
-/*          GENERAL         */
-p {
-  margin: 0px;
-  text-indent: 50px;
-}
+/*         4. GENERAL         */
 
 * {
   color: white;
@@ -100,8 +100,11 @@ body {
   background-attachment: fixed;
   margin: 0px;
 }
-
-/*          WTF_SITE          */
+section{
+  margin:0;
+  padding:0;
+}
+/*         5. WTF_SITE          */
 
 .corsan__wtf-img {
   display: inline-block;
@@ -143,4 +146,20 @@ body {
 
 .corsan__description {
   margin-top: 100px;
+}
+
+/*          6. HOMEPAGE         */
+.homepage__box{
+  box-sizing:border-box;
+  width:50vw;
+  margin: 100px auto;
+  padding: 15px 25px;
+  border: 5px solid green;
+  border-radius: 30px 30px 30px 0px;
+  background-color: gray;
+  box-shadow:  0px 0px 15px 10px orangered;
+  opacity: 0.8;
+  letter-spacing: 0.1em;
+  word-spacing: 0.8em;
+  line-height: 1.2em;
 }
