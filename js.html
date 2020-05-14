@@ -38,11 +38,23 @@
     <article class="main__note">
 
     </article>
+    <h2 class="main__note-header"> some exercises from JS</h2>
+    <article class="main__note main__note--js">
+
+    </article>
+
   </main>
   <a class="footer__link" href="#top">to top</a>
   <footer id="bottom">
   </footer>
   <script src="main.js">
+
+  </script>
+  <script>
+    const paragraph = document.querySelector('.main__note--js');
+    console.log(paragraph.innerHTML);
+    paragraph.innerHTML = `this is changed content. <br> my lucky number is ${favouriteNumber}`;
+    console.log(paragraph);
   </script>
 </body>
 
