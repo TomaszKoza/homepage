@@ -9,13 +9,8 @@
 </head>
 
 <body>
-  <a id="top"></a>
-
-
-  <header class="header__navigation">
-
-
-    <nav class="header__navigation-nav">
+  <header class="header" id="top">
+    <nav class="header__navigation">
       <a class="header__navigation-link" href="index.html"><img class="header__navigation-img" src="img/house.png"
           alt="home" /></a>
       <a class="header__navigation-link" href="html.html"><img class="header__navigation-img" src="img/htmln.png"
@@ -29,24 +24,23 @@
       <a class="header__navigation-link" href="note.html"><img class="header__navigation-img" src="img/noten.png"
           alt="note" /></a>
     </nav>
-
+    <a class="header__link" href="#bottom">bottom</a>
   </header>
-
-  <main>
+  <main class="main">
     <header>
-      <a class="header__link" href="#bottom">bottom</a>
+      
       <h1 class="main__header">WTF TRAINING</h1>
     </header>
     <section class="corsan">
-      <p class="corsan-p">Maciek Korsan</p>
+      <h2 class="corsan-h2">Maciek Korsan</h2>
       <div class="corsan_box">
-        <img clss="corsan__wtf-img" src="img/korsan-header.jpg" alt="Maciek Korsan" />
-        <a class="corsan__link" href="https://cotenfrontend.pl/" target="_blank">GO TO WHAT THE FRONTEND !!!</a>
+        <img class="corsan-img" src="img/korsan-header.jpg" alt="Maciek Korsan" />
+        <a class="corsan-link" href="https://cotenfrontend.pl/" target="_blank">GO TO WHAT THE FRONTEND !!!</a>
       </div>
     </section>
     <section class="corsan__description">
       <h2 class="main__note-header">Week 1</h2>
-      <section class="main__note">
+      <div class="main__note">
 
         Plan:
         <ul>
@@ -58,9 +52,9 @@
           <li>Ścieżka rozwoju</li>
           <li>Mój pierwszy projekt!</li>
         </ul>
-      </section>
+      </div>
       <h2 class="main__note-header">Week 2</h2>
-      <section class="main__note">
+      <div class="main__note">
 
         Plan:
 
@@ -71,9 +65,9 @@
           <li>Magia programowania</li>
           <li>Devtools: podglądamy (i zmieniamy) istniejące strony</li>
         </ul>
-      </section>
+      </div>
       <h2 class="main__note-header">Week 3</h2>
-      <section class="main__note">
+      <div class="main__note">
 
         Plan:
 
@@ -85,9 +79,9 @@
           <li>WTF: JavaScript</li>
           <li>Terminal, czyli ocb z tym czarnym okienkiem</li>
         </ul>
-      </section>
+      </div>
       <h2 class="main__note-header">Week 4</h2>
-      <section class="main__note">
+      <div class="main__note">
 
         Plan:
 
@@ -101,9 +95,9 @@
           <li>JavaScript: typy i struktury danych, immutability</li>
           <li>DOM-owe przedszkole</li>
         </ul>
-      </section>
+      </div>
       <h2 class="main__note-header">Week 5</h2>
-      <section class="main__note">
+      <div class="main__note">
 
         Plan:
 
@@ -115,9 +109,9 @@
           <li>Normalizacja vs reset</li>
           <li>JavaScript: funkcje</li>
         </ul>
-      </section>
+      </div>
       <h2 class="main__note-header">Week 6</h2>
-      <section class="main__note">
+      <div class="main__note">
 
         Plan:
 
@@ -129,9 +123,9 @@
           <li>🍔 menu</li>
           <li>GitHub pages: statyczny hosting</li>
         </ul>
-      </section>
+      </div>
       <h2 class="main__note-header">Week 7</h2>
-      <section class="main__note">
+      <div class="main__note">
 
         Plan:
 
@@ -144,9 +138,9 @@
           <li>SASS: korzystamy z preprocesora CSS</li>
           <li>JavaScript: obiekty / prototypy / klasy</li>
         </ul>
-      </section>
+      </div>
       <h2 class="main__note-header">Week 8</h2>
-      <section class="main__note">
+      <div class="main__note">
 
         Plan:
 
@@ -159,9 +153,9 @@
           <li>HTML: Hipersection
             oza i inne choroby Twojego kodu</li>
         </ul>
-      </section>
+      </div>
       <h2 class="main__note-header">Week 9</h2>
-      <section class="main__note">
+      <div class="main__note">
 
         Plan:
 
@@ -174,9 +168,9 @@
           <li>Git: branche</li>
           <li>JavaScript: cookies, local i session storage</li>
         </ul>
-      </section>
+      </div>
       <h2 class="main__note-header">Week 10</h2>
-      <section class="main__note">
+      <div class="main__note">
 
         Plan:
 
@@ -188,9 +182,9 @@
           <li>Progressive Web Apps</li>
           <li>WCAG</li>
         </ul>
-      </section>
+      </div>
       <h2 class="main__note-header">Week 11</h2>
-      <section class="main__note">
+      <div class="main__note">
 
         Plan:
 
@@ -205,9 +199,9 @@
           </li>
           <li>GIT: mój pierwszy pull request</li>
         </ul>
-      </section>
+      </div>
       <h2 class="main__note-header">Week 12</h2>
-      <section class="main__note">
+      <div class="main__note">
 
         Plan:
 
@@ -217,9 +211,9 @@
           <li>CSS: ~ + › []</li>
           <li>Projekt od A do ...</li>
         </ul>
-      </section>
+      </div>
       <h2 class="main__note-header">Week 13</h2>
-      <section class="main__note">
+      <div class="main__note">
 
         Plan:
 
@@ -231,18 +225,17 @@
           <li>Przyszłość frontendu</li>
           <li>WTF: i co dalej?</li>
         </ul>
-      </section>
+      </div>
     </section>
   </main>
-  
   <footer class="footer" id="bottom">
+    <h6 class="footer-h6">contact details:</h6>
     <ul class="footer__ul">
-      <h6 class="footer-h6">contact details:</h6>
       <li class="footer__ul-li">first name: Tomasz</li>
       <li class="footer__ul-li">last name: Koza</li>
       <li class="footer__ul-li">email adress: tomaszkoza.mail@gmail.com</li>
     </ul>
-  <a class="footer__link" href="#top">to top</a>
+    <a class="footer__link" href="#top">to top</a>
   </footer>
   <script src="main.js">
   </script>

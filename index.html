@@ -7,10 +7,8 @@
   <title>WTF HTML</title>
   <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
-
 <body>
-  <a id="top"></a>
-  <header class="header">
+  <header class="header" id="top">
     <nav class="header__navigation">
       <a class="header__navigation-link" href="index.html"><img class="header__navigation-img" src="img/house.png"
           alt="home" /></a>
@@ -28,37 +26,31 @@
     <a class="header__link" href="#bottom">bottom</a>
   </header>
   <main class="main">
-    
     <header>
       <h1 class="main__header">HOMEPAGE</h1>
     </header>
-    <section>
-      <article class="main__homepage">
-        <h2 class="main__homepage-header">About ME</h2>
-        <article class="homepage__box">
-          <p>
-            True is that I am 30 years old already but inside I am still
-            little, curious child. Like many people I have stable and boring
-            job. I feel little ashamed how long I have been thinking about
-            become frontend developer and I haven’t done anything in this
-            case. Fortunately that desire had been growing inside me and I
-            decided few months time ago to become who I want. When I was
-            looking place where I can start I found that course. I believe I
-            can learn solid basics here and start my new path in my life.
-          </p>
-        </article>
-      </article>
+    <section class="main__homepage">
+       <h2 class="main__homepage-header">About ME</h2>
+       <div class="main__homepage-box">       
+        True is that I am 30 years old already but inside I am still
+        little, curious child. Like many people I have stable and boring
+        job. I feel little ashamed how long I have been thinking about
+        become frontend developer and I haven’t done anything in this
+        case. Fortunately that desire had been growing inside me and I
+        decided few months time ago to become who I want. When I was
+        looking place where I can start I found that course. I believe I
+        can learn solid basics here and start my new path in my life.
+       </div>
     </section>
-
   </main>
   <footer class="footer" id="bottom">
+    <h6 class="footer-h6">contact details:</h6>
     <ul class="footer__ul">
-      <h6 class="footer-h6">contact details:</h6>
       <li class="footer__ul-li">first name: Tomasz</li>
       <li class="footer__ul-li">last name: Koza</li>
       <li class="footer__ul-li">email adress: tomaszkoza.mail@gmail.com</li>
     </ul>
-  <a class="footer__link" href="#top">to top</a>
+    <a class="footer__link" href="#top">to top</a>
   </footer>
   <script src="main.js">
   </script>
