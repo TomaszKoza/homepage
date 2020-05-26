@@ -249,7 +249,7 @@ section {
   color: #ec1399;
 }
 
-.corsan__link:hover {
+.corsan-link:hover {
   text-decoration: underline #ec1399;
   font-family: lazer84;
   font-size: 7em;
