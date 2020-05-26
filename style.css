@@ -36,7 +36,7 @@ x.Media queries
   text-shadow: 0px 0px 2em goldenrod;
   font-weight: 900;
 }
-.footer__link{
+.footer__top-link{
   font-size: 2em;
   text-align: right;
   white-space: nowrap;
@@ -45,7 +45,7 @@ x.Media queries
   font-weight: 900;
 }
 .header__bottom-link:hover,
-.footer__link:hover {
+.footer__top-link:hover {
   color: black;
   text-shadow: 0px 0px 2em white;
   background-color: white;
@@ -80,9 +80,13 @@ x.Media queries
   bottom: 0px;
   margin: 0px;
 }
-.footer__link {
+.footer__top-link {
   bottom: 60px;
   margin-bottom: 0px;
+}
+.footer__link:hover {
+color:hotpink;
+text-shadow: 0px 0px 5px black;
 }
 
 
