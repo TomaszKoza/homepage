@@ -7,3 +7,17 @@ console.log(`hi my name is ${name} and I have ${age} years old`);
 console.log("hi my name is", name, "and i have", age, "years old");
 console.log(`this is my name ${name} I have ${age} years old and ${favouriteNumber} is my favourite number`);
 
+function hello(name,age){
+    const whatis = document.querySelector('.main__function--js');
+    console.log(whatis);
+    whatis.innerHTML = `Hello user. I am ${name} and I have ${age} years old. I am your host. WELCOME`
+    return;
+}
+const helloMain=(name,age)=>{
+    const main = document.querySelector('.main__main--js');
+    console.log(main);
+    main.innerHTML = `Hello! I am ${name} and I have ${age} years. Also I want to tell you WELCOMMMMEEEEE!!! on my page xD`;
+    
+
+}
+

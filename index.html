@@ -5,8 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WTF HTML</title>
+  <link rel="stylesheet" type="text/css" href="normalize.css" />
   <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
+
 <body>
   <header class="header" id="top">
     <nav class="header__navigation">
@@ -23,15 +25,17 @@
       <a class="header__navigation-link" href="note.html"><img class="header__navigation-img" src="img/noten.png"
           alt="note" /></a>
     </nav>
-    <a class="header__link" href="#bottom">bottom</a>
+    <div class="header__bottom">
+      <a class="header__bottom-link" href="#bottom">bottom</a>
+    </div>
   </header>
   <main class="main">
     <header>
       <h1 class="main__header">HOMEPAGE</h1>
     </header>
     <section class="main__homepage">
-       <h2 class="main__homepage-header">About ME</h2>
-       <div class="main__homepage-box">       
+      <h2 class="main__homepage-header">About ME</h2>
+      <div class="main__homepage-box">
         True is that I am 30 years old already but inside I am still
         little, curious child. Like many people I have stable and boring
         job. I feel little ashamed how long I have been thinking about
@@ -40,19 +44,46 @@
         decided few months time ago to become who I want. When I was
         looking place where I can start I found that course. I believe I
         can learn solid basics here and start my new path in my life.
-       </div>
+      </div>
     </section>
+    <article class="main__hello"></article>
+    <h2 class="main__note-header"> My invitation (arrow function)</h2>
+  <div class="main__note-js main__main--js">
+  </article>
   </main>
   <footer class="footer" id="bottom">
-    <h6 class="footer-h6">contact details:</h6>
-    <ul class="footer__ul">
-      <li class="footer__ul-li">first name: Tomasz</li>
-      <li class="footer__ul-li">last name: Koza</li>
-      <li class="footer__ul-li">email adress: tomaszkoza.mail@gmail.com</li>
-    </ul>
-    <a class="footer__link" href="#top">to top</a>
+    <div class="footer__details">
+      <h6 class="footer-h6">contact details:</h6>
+      <ul class="footer__ul">
+        <li class="footer__ul-li">first name: Tomasz</li>
+        <li class="footer__ul-li">last name: Koza</li>
+        <li class="footer__ul-li">email adress: tomaszkoza.mail@gmail.com</li>
+      </ul>
+    </div>
+    <div class="footer__useful">
+      <h6 class="footer-h6">useful links:</h6>
+      <ul class="footer__ul">
+        <li class="footer__ul-li"><a href="https://cotenfrontend.pl/">WTF</a></li>
+        <li class="footer__ul-li"><a href="https://edu.devstyle.pl/">DEVSTYLE</a></li>
+        <li class="footer__ul-li"><a href="https://www.awwwards.com/">awwwards</a></li>
+      </ul>
+    </div>
+    <div class="footer__job">
+      <h6 class="footer-h6">Job for IT freaks:</h6>
+      <ul class="footer__ul">
+        <li class="footer__ul-li"><a href="https://nofluffjobs.com/pl">no fluff jobs</a></li>
+        <li class="footer__ul-li"><a href="https://www.juniorjobsonly.com/jobs/23/junior-front-end-developer">juniors jobs only</a></li>
+      </ul>
+    </div>
+    <div class="footer__top">
+      <a class="footer__link" href="#top">to top</a>
+    </div>
   </footer>
   <script src="main.js">
+    
+  </script>
+  <script>
+helloMain(name,age);
   </script>
 </body>
 
