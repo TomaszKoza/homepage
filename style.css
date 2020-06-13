@@ -27,6 +27,8 @@ x.Media queries
 
 .header__bottom-link
  {  
+  display:block;
+  margin: 3px auto;
   font-size: 2em;
   white-space: nowrap;
   color: orangered;
@@ -35,8 +37,10 @@ x.Media queries
 }
 
 .footer__top-link{
+  display:block;
+  margin: 3px auto;
   font-size: 2em;
-  text-align: right;
+  
   white-space: nowrap;
   color: orangered;
   text-shadow: 0px 0px 2em goldenrod;
@@ -44,6 +48,7 @@ x.Media queries
 }
 .header__bottom-link:hover,
 .footer__top-link:hover {
+  
   color: black;
   text-shadow: 0px 0px 2em white;
   background-color: white;
@@ -83,10 +88,11 @@ x.Media queries
   bottom: 0px;
   margin: 0px;
 }
-.footer__top-link {
+/*.footer__top-link {
   bottom: 60px;
   margin-bottom: 0px;
 }
+*/
 .footer__link:hover {
 color:hotpink;
 text-shadow: 0px 0px 5px black;
@@ -141,22 +147,31 @@ section {
   position:fixed;
   align-self:center;
   top: 0px;
+  right:0px;
   text-align: center;
-  width: 450px;
-  height: 64px;
+  width: 70px;
+ 
   background-color: rgba(236, 192, 99, 0.342);
 }
 
 
 .header__bottom {
+  display:block;
 align-self: flex-end;
 }
 
 .header__navigation-img {
+  margin: 3px auto;
   width: 60px;
   height: 60px;
 }
+.header__navigation-img:hover{
+  background-color: white;
+}
 
+.header__screen{
+  display:none;
+}
 /*          5. HOMEPAGE         */
 
 .main__homepage-note {
@@ -252,6 +267,10 @@ align-self: flex-end;
 
 /*        8. NAVIGATION          */
 .nav{
+  display:none;
+}
+.header__navigation-link{
+  display:block;
 
 }
 
@@ -330,5 +349,40 @@ margin-top:5px;
 
 
 
+
 /*          x.Media Queries         */
-@media screen 
+
+@media screen and (min-width: 400px){
+  .header__mobile{
+    display:none;
+  }
+  .header__screen{
+    
+    grid-area:header header1 header2;
+    grid-column-start: 1;
+    grid-column-end:4;
+    grid-row-start:1;
+    grid-row-end:2;
+    display: flex;
+    flex-flow:column nowrap;
+    justify-content: center;
+    
+    
+  }
+  
+  .header__navigation-screen {
+  z-index:200;
+  position:fixed;
+  align-self:center;
+  top: 0px;
+  text-align: center;
+  width: 450px;
+  height: 64px;
+  background-color: rgba(236, 192, 99, 0.342);
+  }
+
+  .header__navigation-link{
+    display:inline-block;
+}
+
+}

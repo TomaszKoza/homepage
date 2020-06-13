@@ -31,4 +31,13 @@ const myclick=() => {
     
     heading.classList.toggle('note__button1');
 }
-button.addEventListener('click',myclick);
+
+
+const hamburger = document.querySelector('.menu--js');
+
+const menu=() => {
+    const toggle=document.querySelector('.nav--js');
+    toggle.classList.toggle('nav');
+}
+
+hamburger.addEventListener('click',menu);
