@@ -26,17 +26,14 @@ x.Media queries
 /*         1. ANCHORS          */
 
 .header__bottom-link
- {
-  display: inline-block;
-  position: relative;
-  left: 90%;
+ {  
   font-size: 2em;
-  text-align: right;
   white-space: nowrap;
   color: orangered;
   text-shadow: 0px 0px 2em goldenrod;
   font-weight: 900;
 }
+
 .footer__top-link{
   font-size: 2em;
   text-align: right;
@@ -133,24 +130,28 @@ section {
   grid-column-end:4;
   grid-row-start:1;
   grid-row-end:2;
-  display: block;
+  display: flex;
+  flex-flow:column nowrap;
+  justify-content: center;
+  
 }
+
 .header__navigation {
-  /*z-index: 5;
-  position: fixed;
+  z-index:200;
+  position:fixed;
+  align-self:center;
   top: 0px;
-  left: 530px;
-  */
   text-align: center;
   width: 450px;
   height: 64px;
   background-color: rgba(236, 192, 99, 0.342);
 }
-.header__bottom-link {
-  position: relative;
-  top: 10px;
-  right: 10px;
+
+
+.header__bottom {
+align-self: flex-end;
 }
+
 .header__navigation-img {
   width: 60px;
   height: 60px;
@@ -174,6 +175,7 @@ section {
   margin-top: 64px;
   text-align: center;
 }
+
 .main__homepage-box {
   box-sizing: border-box;
   width: 50vw;
@@ -201,6 +203,16 @@ section {
   word-spacing: 0.8em;
   line-height: 1.2em;
 }
+
+.note__button{
+  color:black;
+}
+
+.note__button1{
+  color:hotpink;
+  text-shadow:0px 0px 20px orangered;
+}
+
 /*         7. MAIN          */
 
 .main {
@@ -211,6 +223,7 @@ section {
   grid-row-end:3;
   display: block;
   position: relative;
+  
   margin: 0;
   padding: 0 2.5vw;
   min-height: 62vh;
@@ -238,6 +251,9 @@ section {
 }
 
 /*        8. NAVIGATION          */
+.nav{
+
+}
 
 /*         9. Notes          */
 .notes{
@@ -315,3 +331,4 @@ margin-top:5px;
 
 
 /*          x.Media Queries         */
+@media screen 

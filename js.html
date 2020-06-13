@@ -25,7 +25,9 @@
       <a class="header__navigation-link" href="note.html"><img class="header__navigation-img" src="img/noten.png"
           alt="note" /></a>
     </nav>
-    <a class="header__bottom-link" href="#bottom">bottom</a>
+    <div class="header__bottom">
+      <a class="header__bottom-link" href="#bottom">bottom</a>
+    </div>
   </header>
   <main class="main">    
     <header>
@@ -39,6 +41,9 @@
     </div>
     <h2 class="main__note-header"> my new function :)</h2>
   <div class="main__note-js main__function--js">
+  </div>
+  <h2 class="main__note-header change__heading--js"> changable header !!!</h2>
+  <div class="main__note-js "><button class="note__button button--js">change header</button>
   </div>
   </main>
   <footer class="footer" id="bottom">
@@ -77,7 +82,8 @@
     paragraph.innerHTML = `this is changed content. <br> my lucky number is ${favouriteNumber}`;
     console.log(paragraph);
     hello('wiktor',favouriteNumber);
-  </script>
+    
+    </script>
 </body>
 
 </html>

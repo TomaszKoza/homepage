@@ -21,3 +21,14 @@ const helloMain=(name,age)=>{
 
 }
 
+const button = document.querySelector('.button--js');
+
+console.log(button);
+
+const myclick=() => {
+
+    const heading=document.querySelector('.change__heading--js');
+    
+    heading.classList.toggle('note__button1');
+}
+button.addEventListener('click',myclick);
