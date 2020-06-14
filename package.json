@@ -1,0 +1,24 @@
+{
+  "name": "Homepage",
+  "version": "1.0.0",
+  "description": "https://tomaszkoza.github.io/homepage/",
+  "main": "main.js",
+  "scripts": {
+    "sass":"npx node-sass -w scss/style.scss style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomaszKoza/homepage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomaszKoza/homepage/issues"
+  },
+  "homepage": "https://github.com/TomaszKoza/homepage#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
