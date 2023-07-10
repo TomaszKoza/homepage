@@ -1,0 +1,20 @@
+body{
+    background-color: #fefefe;
+}
+h1{
+    color:darkgreen;
+    font-size: 4em;
+}
+h2{
+    color:#1460AA; 
+    text-decoration:underline rgb(195, 6, 110);
+}
+section{
+    background-color:rgb(237 237 237 / 40%);
+}
+.week{
+    background-color: rgb(238, 255, 205);
+}
+section{
+    padding: 2em;
+}
