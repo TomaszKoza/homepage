@@ -18,3 +18,9 @@ section{
 section{
     padding: 2em;
 }
+.orange{
+    color:orange;
+}
+.inherit{
+    color:inherit;
+}
