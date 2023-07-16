@@ -28,3 +28,10 @@ section{
 .inherit{
     color:inherit;
 }
+.picture{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5em;
+  height: 5em;
+}
