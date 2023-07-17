@@ -2,26 +2,28 @@ body{
     background-color: #fefefe;
 }
 .main_header{
+    padding: 16px;
     color:darkgreen;
     font-size: 4em;
 }
 .section_header{
+    padding: 16px;
     color:#1460AA; 
     text-decoration:underline rgb(195, 6, 110);
 }
 .article_header{
+    padding: 16px;
     color:firebrick;
     text-decoration:overline dashed ;
 }
 section{
+    padding: 16px;
     background-color:rgb(237 237 237 / 40%);
 }
 .week_description{
     background-color: rgb(238, 255, 205);
 }
-section{
-    padding: 2em;
-}
+
 .orange{
     color:orange;
 }
@@ -34,4 +36,7 @@ section{
   margin-right: auto;
   width: 5em;
   height: 5em;
+}
+header{
+    padding:16px;
 }
