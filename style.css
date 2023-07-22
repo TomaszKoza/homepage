@@ -1,9 +1,17 @@
 body{
     box-sizing: border-box;
-    background-color: #fefefe;
+    background-image:url("city.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    width:100%;
 }
-*, *:before,*:after{
+ *, *:before,*:after{
     box-sizing: inherit;
+    text-align:center;
+    
+   
 }
 
 .main_header{
@@ -12,21 +20,21 @@ body{
     font-size: 4em;
 }
 .section_header{
-    padding: 16px;
+    
     color:#1460AA; 
     text-decoration:underline rgb(195, 6, 110);
 }
 .article_header{
-    padding: 16px;
+    
     color:firebrick;
     text-decoration:overline dashed ;
 }
 section{
+    display:block;
     padding: 16px;
-    background-color:rgb(237 237 237 / 40%);
-}
-.week_description{
-    background-color: rgb(238, 255, 205);
+    width:90%;
+    margin:5px auto;
+         
 }
 
 .orange{
@@ -36,12 +44,38 @@ section{
     color:inherit;
 }
 .picture{
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
+    display:block;
+    margin:5px auto;
+
   width: 5em;
   height: 5em;
+  background-color: rgba(244, 244, 244, 0.615);
 }
-header{
-    padding:16px;
+.navigation{
+    background-color:rgb(119 200 255 / 0.74);
+    height:3em;
 }
+
+ .section_header, .section_content, .article_header, .article_header, .week_content{
+    display:block;
+    margin:20px auto;
+    background-color: rgba(244, 244, 244, 0.615);
+    width:90%;
+}
+.anchor__bottom, .anchor__top{
+    background-color: rgb(255 105 105 / 0.86);
+}
+
+.navigation_link{
+    font-size: 2em;
+}
+
+.navigation_link:visited   {
+color:orangered;
+}
+.navigation_link:hover{
+    color:hotpink;
+    font-size:2.2em;
+}
+
+

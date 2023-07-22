@@ -5,18 +5,19 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Homepage_WTF</title>
+	<link href="normalize.css" rel="stylesheet" type="text/css">
 	<link href="style.css" rel="stylesheet" type="text/css">
 
 </head>
 
 <body id="top">
 	<header>
-		<nav>
-			<a href="index.html">Main</a>
-			<a href="notes.html">Notes</a>
-			<a href="exercises.html">Exercises</a>
+		<nav class="navigation">
+			<a class="navigation_link" href="index.html">Main</a>
+			<a class="navigation_link" href="notes.html">Notes</a>
+			<a class="navigation_link" href="exercises.html">Exercises</a>
 		</nav>
-		<a href="#bottom">bottom</a>
+		<a class="anchor__bottom" href="#bottom">bottom</a>
 	</header>
 	<main>
 
@@ -25,12 +26,12 @@
 		</h1>
 		<img class="picture" src="exercises.png" alt="picture of hands taping on keyboard" />
 
-		<a href="#bottom">bottom</a>
+		
 		<section>
 			<h2 class="section_header">Exercises from weeks</h2>
 			<article>
 				<h2 class="section_header">inherit exercise</h2>
-				<p class="orange"> this paragraph should be orange and link should be orange<a class="inherit"
+				<p class="section_content orange"> this paragraph should be orange and link should be orange<a class="inherit"
 						href="https://cotenfrontend.pl/" target="_blank">WTF3</a></p>
 				<p> this paragraph should be normal and link should act like defoult link <a
 						href="https://cotenfrontend.pl/" target="_blank">WTF3</a> </p>
@@ -41,7 +42,7 @@
 	</main>
 	<footer id="bottom">
 		This page is the effect of the practice What That Frontend course. All rights reserved to Tomasz Koza
-		<a href="#top">Top</a>
+		<a class="anchor__top" href="#top">Top</a>
 	</footer>
 
 	<script src="main.js">
