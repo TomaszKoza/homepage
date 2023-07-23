@@ -25,7 +25,7 @@
 			Tomasz Koza- exercises
 		</h1>
 		<img class="picture" src="exercises.png" alt="picture of hands taping on keyboard" />
-	
+
 		<section class="section">
 			<h2 class="section_header">Exercises from weeks</h2>
 			<article class="section_article">
@@ -36,14 +36,21 @@
 						href="https://cotenfrontend.pl/" target="_blank">WTF3</a> </p>
 			</article>
 			<article class="section_article">
-				<h3 class="article_header">JavaScript</h3>
-				
+				<h3 class="article_header">JavaScript - query selector</h3>
+				<div class="query">
+					hi this is HTML without replace
+				</div>
+				<div class="query query-js">
+					hi this is HTML without replace
+				</div>
+
 			</article>
 		</section>
 
 	</main>
 	<footer class="footer" id="bottom">
-		<p class="footer_note">This page is the effect of the practice What That Frontend course. All rights reserved to Tomasz Koza</p>
+		<p class="footer_note">This page is the effect of the practice What That Frontend course. All rights reserved to
+			Tomasz Koza</p>
 		<a class="anchor_top" href="#top">Top</a>
 	</footer>
 
@@ -51,7 +58,14 @@
 	</script>
 	<script>
 		const name = 'Tomek';
-		console.log(`hello I have ${age} years and  my name is ${name}  `);	
+		console.log(`hello I have ${age} years and  my name is ${name}  `);
+		const replace = document.querySelector('.query-js');
+		console.log(replace);
+		console.log(replace.innerHTML);
+		replace.innerHTML = 'Replaced text';
+		console.log(replace.style);
+		replace.style.backgroundColor = "red";
+
 	</script>
 </body>
 
