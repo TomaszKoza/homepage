@@ -73,12 +73,6 @@ section{
     margin:5px auto;
 }
 
-.orange{
-    color:orange;
-}
-.inherit{
-    color:inherit;
-}
 .picture{
     display:block;
     margin:5px auto;
@@ -96,6 +90,10 @@ section{
 }
 
 /*EXERCISES-----------------------------------------------------------------*/
+.orange{
+    color:orange;
+}
 
-
-
+.inherit{
+    color:inherit;
+}
