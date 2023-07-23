@@ -19,44 +19,48 @@ body{
     background-color:rgb(119 200 255 / 0.74);
     height:3em;
 }
-.navigation_link{
+.navigation__link{
     display:inline-block;
     margin:0 auto;
     font-size: 2em;
     width:30%;
 }
 
-.navigation_link:visited   {
+.navigation__link:visited   {
 color:orangered;
 }
-.navigation_link:hover{
+.navigation__link:hover{
     color:hotpink;
     font-size:2.2em;  
 }
 
-.anchor_bottom, .anchor_top{
+.anchor__bottom, .anchor__top{
     display:block;
     background-color: rgb(255 105 105 / 0.86);
     margin: 20px auto;
     width:fit-content;
 }
-.anchor_bottom:hover, .anchor_topp:hover {
+.anchor__bottom:hover, .anchor__top:hover {
     background-color: red;
 }
 
 /*BODY----------------------------------------------------------------------*/
 
-.main_header{
+.main__header{
     padding: 16px;
-    color:darkgreen;
+    color:rgb(21, 102, 21);
     font-size: 4em;
+    background:rgba(172, 255, 47, 0.482);
+    text-shadow:0 0 20px white;
+    width:fit-content;
+    margin: 0.7em auto;
 }
-.section_header{
+.section__header{
     
     color:#1460AA; 
     text-decoration:underline rgb(195, 6, 110);
 }
-.article_header{
+.note__header{
     
     color:firebrick;
     text-decoration:overline dashed ;
@@ -73,7 +77,7 @@ section{
     margin:5px auto;
 }
 
-.picture{
+.note__picture, .picture{
     display:block;
     margin:5px auto;
 
@@ -82,14 +86,14 @@ section{
   background-color: rgba(244, 244, 244, 0.615);
 
 }
- .footer_note, .section_article , .week, .section_header{
+ .footer__note, .note__content , .note__header, .exercise, .exercise__header .note__header, .week, .section__header{
     display:block;
     margin:20px auto;
     background-color: rgba(244, 244, 244, 0.704);
     width:90%;
 }
 
-/*EXERCISES-----------------------------------------------------------------*/
+/*EXERCISES-----------------------------------------------  ------------------*/
 .orange{
     color:orange;
 }
