@@ -1,8 +1,9 @@
+/*GENERAL-------------------------------------------------------------------*/
 body{
     box-sizing: border-box;
     background-image:url("city.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+   
     background-position:center;
     background-attachment: fixed;
     width:100%;
@@ -10,9 +11,40 @@ body{
  *, *:before,*:after{
     box-sizing: inherit;
     text-align:center;
-    
-   
 }
+/*NAVIGATION & FOOTER-------------------------------------------------------*/
+
+.navigation{
+    display:block;
+    background-color:rgb(119 200 255 / 0.74);
+    height:3em;
+}
+.navigation_link{
+    display:inline-block;
+    margin:0 auto;
+    font-size: 2em;
+    width:30%;
+}
+
+.navigation_link:visited   {
+color:orangered;
+}
+.navigation_link:hover{
+    color:hotpink;
+    font-size:2.2em;  
+}
+
+.anchor_bottom, .anchor_top{
+    display:block;
+    background-color: rgb(255 105 105 / 0.86);
+    margin: 20px auto;
+    width:fit-content;
+}
+.anchor_bottom:hover, .anchor_topp:hover {
+    background-color: red;
+}
+
+/*BODY----------------------------------------------------------------------*/
 
 .main_header{
     padding: 16px;
@@ -28,13 +60,17 @@ body{
     
     color:firebrick;
     text-decoration:overline dashed ;
+    display:block;
+    margin:20px auto;
+    
+    width:90%;
+    padding:0.4em;
 }
 section{
     display:block;
     padding: 16px;
     width:90%;
     margin:5px auto;
-         
 }
 
 .orange{
@@ -50,32 +86,16 @@ section{
   width: 5em;
   height: 5em;
   background-color: rgba(244, 244, 244, 0.615);
-}
-.navigation{
-    background-color:rgb(119 200 255 / 0.74);
-    height:3em;
-}
 
- .section_header, .section_content, .article_header, .article_header, .week_content{
+}
+ .footer_note, .section_article , .week, .section_header{
     display:block;
     margin:20px auto;
-    background-color: rgba(244, 244, 244, 0.615);
+    background-color: rgba(244, 244, 244, 0.704);
     width:90%;
 }
-.anchor__bottom, .anchor__top{
-    background-color: rgb(255 105 105 / 0.86);
-}
 
-.navigation_link{
-    font-size: 2em;
-}
+/*EXERCISES-----------------------------------------------------------------*/
 
-.navigation_link:visited   {
-color:orangered;
-}
-.navigation_link:hover{
-    color:hotpink;
-    font-size:2.2em;
-}
 
 
