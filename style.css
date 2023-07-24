@@ -16,8 +16,8 @@ body{
 
 .navigation{
     display:block;
-    background-color:rgb(119 200 255 / 0.74);
-    height:3em;
+    margin-bottom:0px;    
+    height:2.5em;
 }
 .navigation__link{
     display:inline-block;
@@ -35,9 +35,9 @@ color:orangered;
 }
 
 .anchor__bottom, .anchor__top{
-    display:block;
+    display:inlne-block;
     background-color: rgb(255 105 105 / 0.86);
-    margin: 20px auto;
+    margin: -6px auto;
     width:fit-content;
 }
 .anchor__bottom:hover, .anchor__top:hover {
@@ -46,6 +46,11 @@ color:orangered;
 
 /*BODY----------------------------------------------------------------------*/
 
+.header{
+    position:sticky;
+    top:0px;
+    background-color:rgb(7 78 124 / 0.87);
+}
 .main__header{
     padding: 16px;
     color:rgb(21, 102, 21);
@@ -57,7 +62,7 @@ color:orangered;
 }
 .section__header{
     
-    color:#1460AA; 
+    color:#031297; 
     text-decoration:underline rgb(195, 6, 110);
 }
 .note__header{
