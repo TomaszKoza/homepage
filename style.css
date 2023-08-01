@@ -59,12 +59,14 @@ color:orangered;
     text-shadow:0 0 20px white;
     width:fit-content;
     margin: 0.7em auto;
+    letter-spacing:10px;
 }
 .section__header{
     
     color:#031297; 
     text-decoration:underline rgb(195, 6, 110);
 }
+
 .note__header{
     
     color:firebrick;
@@ -74,6 +76,12 @@ color:orangered;
     
     width:90%;
     padding:0.4em;
+}
+.note__content{
+    font-size: 1em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:500;
+    line-height: 1.5;
 }
 section{
     display:block;
@@ -96,6 +104,12 @@ section{
     margin:20px auto;
     background-color: rgba(244, 244, 244, 0.704);
     width:90%;
+}
+.special:hover{
+    color:black;
+    font-size:1.2em;
+    text-shadow:0 0 80px rgb(252, 0, 0);
+    text-decoration:underline hotpink;
 }
 
 /*EXERCISES-----------------------------------------------  ------------------*/
