@@ -107,10 +107,11 @@ section{
     width:90%;
 }
 .special:hover{
-    color:black;
-    font-size:1.2em;
-    text-shadow:0 0 80px rgb(252, 0, 0);
+    color:white;
+    text-shadow:0 0 80px black;
     text-decoration:underline hotpink;
+}.special:hover::before, .special:hover::after{
+    content:"🔥";
 }
 
 /*EXERCISES-----------------------------------------------  ------------------*/
@@ -136,4 +137,8 @@ section{
 
 .exercise_list li:hover::marker{
     color:orange;
+    text-decoration:underline;
+}
+.exercise_list li:hover{
+    text-decoration:underline orange;
 }
