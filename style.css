@@ -7,18 +7,22 @@ body{
     background-position:center;
     background-attachment: fixed;
     width:100%;
-    text-align:center;
+    
 }
  *, *:before,*:after{
     box-sizing: inherit;
     
 }
 /*NAVIGATION & FOOTER-------------------------------------------------------*/
+header{
+    text-align:center;
+}
 
 .navigation{
     display:block;
     margin-bottom:0px;    
     height:2.5em;
+  
 }
 .navigation__link{
     display:inline-block;
@@ -40,6 +44,7 @@ color:orangered;
     background-color: rgb(255 105 105 / 0.86);
     margin: -6px auto;
     width:fit-content;
+    
 }
 .anchor__bottom:hover, .anchor__top:hover {
     background-color: red;

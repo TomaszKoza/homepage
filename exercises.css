@@ -1,4 +1,5 @@
 /*EXERCISES-----------------------------------------------  ------------------*/
+
 .orange{
     color:orange;
 }
@@ -45,4 +46,20 @@
 .exercise__orderedList--ol li:hover{
     color:orchid;
     text-decoration:underline greenyellow;
+}
+.exercise__descriptionList--dt, .exercise__descriptionList--dd{
+    margin:10px auto;
+    text-align: left;
+}
+
+.exercise__descriptionList--dd{
+display:inline-block;
+
+width:fit-content;
+margin-bottom:5px;
+border:solid 2px brown;
+}
+.exercise__descriptionList--dt{
+    font-weight: 600;
+    font-size: 1.5rem; 
 }
