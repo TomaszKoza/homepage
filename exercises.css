@@ -1,0 +1,48 @@
+/*EXERCISES-----------------------------------------------  ------------------*/
+.orange{
+    color:orange;
+}
+
+.inherit{
+    color:inherit;
+}
+.exercise__unorderedList--p, .exercise__orderedList--p{
+    text-align:left;
+    border:solid 0.2rem black;
+
+}
+.exercise__unorderedList--ul, .exercise__orderedList--ol{
+    text-align: left;
+}
+.exercise__unorderedList--ul{
+    
+    list-style:square;
+    list-style-position:inside;
+
+    
+}
+.exercise__unorderedList--ul li::marker{
+    color:red;
+    font-size:2em;
+    
+}
+
+.exercise__unorderedList--ul li:hover::marker{
+    color:orange;
+    text-decoration:underline;
+}
+.exercise__unorderedList--ul li:hover{
+    color:orchid;
+    text-decoration:underline greenyellow;
+}
+
+.exercise__orderedList--ol{
+    list-style:upper-roman;
+}
+.exercise__orderedList--ol li::marker{
+    color:gold;
+}
+.exercise__orderedList--ol li:hover{
+    color:orchid;
+    text-decoration:underline greenyellow;
+}

@@ -114,31 +114,3 @@ section{
     content:"🔥";
 }
 
-/*EXERCISES-----------------------------------------------  ------------------*/
-.orange{
-    color:orange;
-}
-
-.inherit{
-    color:inherit;
-}
-.exercise_list{
-    text-align:left;
-    list-style:square;
-    list-style-position:inside;
-
-    
-}
-.exercise_list li::marker{
-    color:red;
-    font-size:2em;
-    
-}
-
-.exercise_list li:hover::marker{
-    color:orange;
-    text-decoration:underline;
-}
-.exercise_list li:hover{
-    text-decoration:underline orange;
-}
