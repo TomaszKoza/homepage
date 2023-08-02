@@ -7,10 +7,11 @@ body{
     background-position:center;
     background-attachment: fixed;
     width:100%;
+    text-align:center;
 }
  *, *:before,*:after{
     box-sizing: inherit;
-    text-align:center;
+    
 }
 /*NAVIGATION & FOOTER-------------------------------------------------------*/
 
@@ -119,4 +120,20 @@ section{
 
 .inherit{
     color:inherit;
+}
+.exercise_list{
+    text-align:left;
+    list-style:square;
+    list-style-position:inside;
+
+    
+}
+.exercise_list li::marker{
+    color:red;
+    font-size:2em;
+    
+}
+
+.exercise_list li:hover::marker{
+    color:orange;
 }
