@@ -7,6 +7,7 @@ body{
     background-position:center;
     background-attachment: fixed;
     width:100%;
+
     
 }
  *, *:before,*:after{
@@ -69,8 +70,15 @@ color:orangered;
 }
 .section__header{
     
+    font-size:3rem;
     color:#031297; 
     text-decoration:underline rgb(195, 6, 110);
+}
+.note__header, .exercise__header, .week__header{
+    font-size:2rem;
+}
+.exercise__header{
+font-weight: 100;
 }
 
 .note__header{
@@ -119,3 +127,9 @@ section{
     content:"🔥";
 }
 
+.exercise__header{
+display: inline-block;
+font-weight: 600;
+letter-spacing: 0.2rem;
+border-right:solid 10px blue;
+}

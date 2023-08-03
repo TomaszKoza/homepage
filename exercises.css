@@ -63,3 +63,23 @@ border:solid 2px brown;
     font-weight: 600;
     font-size: 1.5rem; 
 }
+.exercise__descriptionList--p{
+    font-size:1.8rem;
+    font-weight: 600;
+    text-decoration:underline dotted 5px green;
+    
+}
+.exercise__table{
+    text-align: center;
+    border:solid 2px black;
+}
+
+.exercise__table--td, .exercise__table--th{
+    border:solid 2px black;
+}
+.exercise__table--caption{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    letter-spacing: 1rem;
+    text-transform:uppercase;
+}
