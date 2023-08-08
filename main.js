@@ -49,3 +49,4 @@ const deathStar = {
 
 console.log(deathStar.isOperating);
 deathStar.fire('Mars');
+
